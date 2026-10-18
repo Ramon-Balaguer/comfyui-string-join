@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-string-join"
+description = "Join any number of strings with a custom delimiter. Auto-growing inputs, list support, muted/bypassed sources are ignored."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Ramon-Balaguer/comfyui-string-join"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "String Join (Multi)"
+Icon = ""
