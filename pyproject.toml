@@ -9,6 +9,6 @@ dependencies = []
 Repository = "https://github.com/Ramon-Balaguer/comfyui-string-join"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "ramon-balaguer"
 DisplayName = "String Join (Multi)"
 Icon = ""
