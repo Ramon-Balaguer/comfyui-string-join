@@ -8,6 +8,8 @@ from typing_extensions import override
 
 from comfy_api.latest import ComfyExtension, io
 
+WEB_DIRECTORY = "./web"
+
 
 def _flatten(value):
     if value is None:

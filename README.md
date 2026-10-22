@@ -14,6 +14,7 @@ A ComfyUI custom node that joins **any number of strings** into a single string 
 - **Muted / bypassed sources are ignored** – if an upstream node is muted or bypassed, its string just doesn't count; the node keeps working. If *all* sources are gone, the output is an empty string.
 - `skip_empty` – drop empty (or whitespace-only) strings so you never get `a, , b`.
 - `strip` – trim leading/trailing whitespace from each string before joining.
+- **Reset inputs button** – disconnects all string inputs and restores `delimiter`, `skip_empty` and `strip` to their defaults.
 
 ## Inputs / output
 
